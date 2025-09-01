@@ -5,7 +5,7 @@ MODELS = {
         "type": "huggingface",
         "url": "https://api-inference.huggingface.co/models/openlm-research/open_llama_3b",
         "headers": {
-            "Authorization": "Bearer YOUR_HF_TOKEN"
+            "Authorization": "Bearer YOUR_HF_TOKEN"  # Replace with your actual HuggingFace token
         }
     },
     "mistral": {
@@ -13,7 +13,7 @@ MODELS = {
         "url": "https://openrouter.ai/api/v1/chat/completions",
         "model": "mistralai/mistral-7b-instruct:free",
         "headers": {
-            "Authorization": "Bearer YOUR_OPENROUTER_KEY"
+            "Authorization": "Bearer YOUR_OPENROUTER_KEY"  # Replace with your actual OpenRouter key
         }
     },
     "deepseek_llama70b": {
@@ -32,5 +32,4 @@ MODELS = {
             "Content-Type": "application/json"
         }
     }
-
 }
